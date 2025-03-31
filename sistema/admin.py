@@ -13,6 +13,6 @@ class FilmeAdmin(admin.ModelAdmin):
     list_display = ('id', 'nome', 'ano', 'estudio', 'genero',)
 
 #Aqui fica o registro do genero
-    @admin.register(models.Genero)
-    class GeneroAdmin(admin.ModelAdmin):
-        list_display = ('id', 'nome',)
+@admin.register(models.Genero)
+class GeneroAdmin(admin.ModelAdmin):
+    list_display = ('id', 'nome',)
