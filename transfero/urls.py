@@ -14,6 +14,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('sistema.urls')),
     path('usuarios/', include('usuarios.urls')),
+    path('filmes/', include('filmes.urls')),
 ]
 
 # 127.0.0.1:8000/ => A página principal

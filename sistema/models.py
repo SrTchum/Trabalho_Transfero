@@ -27,7 +27,7 @@ class Genero(models.Model):
     
 class Filme(models.Model):
     nome = models.CharField(max_length=50)
-    ano = models.DateField(default=timezone.now)
+    ano = models.IntegerField()
     estudio = models.CharField(max_length=50)
     # genero = models.CharField(max_length=50)
     genero = models.ForeignKey(Genero, on_delete=models.SET_NULL, null=True, blank=True)

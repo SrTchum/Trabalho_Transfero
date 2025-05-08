@@ -3,11 +3,11 @@ from usuarios.forms import UsuarioForm
 
 # Create your views here.
 
-def cadastro(request):
-    return render(
-        request,
-        'cadastro.html',
-    )
+# def cadastro(request):
+#     return render(
+#         request,
+#         'cadastro.html',
+#     )
 
 def login(request):
     return render(
