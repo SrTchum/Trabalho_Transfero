@@ -12,7 +12,7 @@ from usuarios.forms import UsuarioForm
 def login(request):
     return render(
         request,
-        'login.html',
+        'usuarios/login.html',
     )
 
 def criarUsuario(request):
@@ -30,6 +30,6 @@ def criarUsuario(request):
 
     return render(
         request,
-        'cadastro.html',
+        'usuarios/cadastrar.html',
         {'form': form}
     )

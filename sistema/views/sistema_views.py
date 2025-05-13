@@ -8,13 +8,6 @@ def index (request):
         'sistema/sistema.html'
     )
 
-def apresentacao(request):
-    return render(
-        request,
-        'sistema/apresentacao.html'
-    )
-
-
 
 # REQUEST
 # RESPONSE
